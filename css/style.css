@@ -39,6 +39,14 @@ a {
   padding: 6px 18px 5px 18px;
 }
 
-a:hover, a.on {
-  text-decoration: underline;
+a.on {
+  text-shadow: 1px 1px 1px #545454;
+}
+
+.siblingFade a, a.on {
+    padding: 0 1rem;
+    transition: opacity 0.2s;
+}
+.siblingFade:hover a:not(:hover) {
+    opacity: 0.5;
 }
