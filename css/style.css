@@ -21,6 +21,7 @@ p {
   color: white;
   border-radius: 15px;
   background-color: #545454;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .main > p {
@@ -54,7 +55,7 @@ ul {
   border-bottom: 1px solid #545454;
 }
 
-a {
+.nav a {
   color: #438fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -66,6 +67,7 @@ a {
     padding: 0 1rem;
     transition: opacity 0.2s;
 }
+
 .siblingFade:hover a:not(:hover) {
     opacity: 0.5;
 }
