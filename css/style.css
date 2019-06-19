@@ -17,30 +17,6 @@ body {
   margin: 10px auto 25px auto;
 }
 
-p {
-  color: white;
-  border-radius: 15px;
-  background-color: #545454;
-  box-shadow: 2px 2px 2px 2px black;
-}
-
-.main > p {
-  padding: 10px;
-  max-width: 685px;
-  letter-spacing: 0.05em;
-  margin: 10px auto 10px auto;
-  max-width: 685px;
-  font-size: 90%;
-  line-height: 20px;
-}
-
-p#otest {
-  max-height: 100px;
-  overflow: hidden;
-  border: 3px solid;
-  border-color: red blue yellow green;
-}
-
 li {
   display: inline;
   padding: 10px;
