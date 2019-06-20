@@ -6,15 +6,18 @@ body {
 }
 
 #page {
-  max-width: 940px;
-  min-width: 740px;
-  margin: 10px auto 10px auto;
+  width: 90%;
+  min-width: 50%;
+  margin: 1% auto 1% auto;
   padding: 20px;
 }
 
 #logo {
-  width: 451px;
-  margin: 10px auto 25px auto;
+  margin: 1.5% auto 2.5% auto;
+}
+
+#nav {
+  margin: 1%;
 }
 
 li {
