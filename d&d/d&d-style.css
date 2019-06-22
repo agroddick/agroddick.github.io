@@ -45,6 +45,7 @@ ul li {
   border: none;
   border-radius: 25px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 ul li:hover {
@@ -79,6 +80,5 @@ li span {
 
   .image {
     margin-bottom: 20px;
-    
   }
 }
