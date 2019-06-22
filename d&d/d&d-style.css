@@ -8,7 +8,7 @@ body {
 }
 
 #container {
-  margin-top: 200px;
+  margin: 200px auto 0 auto;
 
   height: 100%;
   display: flex;
@@ -17,7 +17,7 @@ body {
   align-items: center;
 }
 
-#container img {
+#container .img {
   height: 100%;
 }
 
@@ -62,8 +62,16 @@ button span {
   flex-grow: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   #container {
     flex-direction: column;
+  }
+
+  #navi {
+    margin: auto;
+  }
+
+  .image {
+    margin-bottom: 20px;
   }
 }
