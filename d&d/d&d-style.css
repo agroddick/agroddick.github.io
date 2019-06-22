@@ -29,7 +29,7 @@ body {
 #navi {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 ul li {
@@ -66,13 +66,17 @@ li span {
 @media (max-width: 600px) {
   #container {
     flex-direction: column;
+    align-content: center;
+
+    margin-top: 10px;
   }
 
   #navi {
-    margin: auto;
+    margin: 0 auto;
   }
 
   .image {
     margin-bottom: 20px;
+    margin-left: 35px;
   }
 }
