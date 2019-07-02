@@ -1,0 +1,36 @@
+/*
+
+light red: #db0235
+pink red: #d91168
+dark red/purple: #a1033a
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background: linear-gradient(
+        to bottom, 
+        rgba(219, 2, 53, 0.699), 
+        rgba(161, 3, 58, 0.699)), 
+    url(img/dnd-splash.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+}
