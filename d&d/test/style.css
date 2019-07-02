@@ -34,3 +34,25 @@ body {
 
     clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
 }
+
+.header-text-box {
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    letter-spacing: 1.5em;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+}
+
+.header-text-top {
+    display: block;
+    font-size: 40px;
+    transform: translate(-17%, -50%);
+}
+
+.header-text-bottom {
+    display: block;
+    font-size: 16px;
+    transform: translate(-28%, -80%);
+}
