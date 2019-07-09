@@ -42,13 +42,12 @@ body {
     letter-spacing: 1.5em;
     top: 50%;
     left: 50%;
-    width: 100%;
 }
 
 .header-text-top {
     display: block;
     font-size: 40px;
-    transform: translate(-17%, -50%);
+    transform: translate(-45%, -100%);
 }
 
 .header-text-bottom {
