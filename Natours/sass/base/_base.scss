@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    /*Above is the root font size - useful to make it 10 because it's easier to calculate
+    rem from 10px than 16px. Since this defines what 1rem is, it goes in the _base.scss file
+    instead of the typography file.*/
+}
+
+body {
+    box-sizing: border-box;
+}
