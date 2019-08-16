@@ -34,15 +34,15 @@
             &-1 {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
 
-                &::after {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    border-radius: 3px;
-                    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-                    overflow: hidden;
-                }
+                //&::after {
+                    //position: absolute;
+                    //top: 0;
+                    //left: 0;
+                    //width: 100%;
+                    //border-radius: 3px;
+                    //box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+                    //overflow: hidden;
+                //}
             }
 
             &-2 {
