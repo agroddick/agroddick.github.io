@@ -195,6 +195,8 @@ body {
       background-color: #fff; }
     .card__side--back {
       background-color: #fff;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: rotateY(180deg);
       transform: rotateY(180deg); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
@@ -211,8 +213,10 @@ body {
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
   .card:hover .card__side--front {
+    -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
+    -webkit-transform: rotateY(0);
     transform: rotateY(0); }
   .card__picture {
     background-size: cover;
