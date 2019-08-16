@@ -1,29 +1,37 @@
 @keyframes moveInLeft {
   0% {
     opacity: 0;
+    -webkit-transform: translateX(-10rem);
     transform: translateX(-10rem); }
   80% {
+    -webkit-transform: translateX(1rem);
     transform: translateX(1rem); }
   100% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
 @keyframes moveInRight {
   0% {
     opacity: 0;
+    -webkit-transform: translateX(10rem);
     transform: translateX(10rem); }
   80% {
+    -webkit-transform: translateX(-1rem);
     transform: translateX(-1rem); }
   100% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
 @keyframes moveInBottom {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(3rem);
     transform: translateY(3rem); }
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
 *,
@@ -85,6 +93,7 @@ body {
   color: transparent;
   transition: all 0.2s; }
   .heading-secondary:hover {
+    -webkit-transform: skewY(2deg) skewX(15deg) scale(1.1);
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
@@ -123,12 +132,15 @@ body {
     position: relative;
     font-size: 1.6rem; }
   .btn:hover {
+    -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
     .btn:hover::after {
+      -webkit-transform: scale(1.4);
       transform: scale(1.4);
       opacity: 0; }
   .btn:active {
+    -webkit-transform: translateY(-1px);
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
   .btn--white {
@@ -136,10 +148,6 @@ body {
     color: #777; }
     .btn--white::after {
       background-color: #fff; }
-  .btn--cta {
-    position: absolute !important;
-    top: 85%;
-    left: 23%; }
   .btn::after {
     content: "";
     display: inline-block;
@@ -168,10 +176,12 @@ body {
   background-color: #55c57a;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-2px);
   transform: translateY(-2px); }
 
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(0);
   transform: translateY(0); }
 
 .card {
@@ -301,10 +311,12 @@ body {
       top: 10rem; }
     .composition__photo:hover {
       outline: 1.5rem solid #55c57a;
+      -webkit-transform: scale(1.05) translateY(-0.5rem);
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
+    -webkit-transform: scale(0.95);
     transform: scale(0.95); }
 
 .feature-box {
@@ -324,6 +336,7 @@ body {
     color: transparent;
     transition: transform 0.3s; }
   .feature-box:hover {
+    -webkit-transform: translateY(-1.5rem) scale(1.03);
     transform: translateY(-1.5rem) scale(1.03); }
 
 .row {
@@ -371,6 +384,7 @@ body {
     position: absolute;
     top: 40%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center; }
 
@@ -384,6 +398,7 @@ body {
   margin-top: -10rem;
   background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.801)), url(../img/nat-4.jpg);
   background-size: cover;
+  -webkit-transform: skewY(-7deg);
   transform: skewY(-7deg); }
   .section-features > * {
     transform: skewY(7deg); }

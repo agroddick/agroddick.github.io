@@ -15,6 +15,7 @@
     url(../img/nat-4.jpg);
     background-size: cover;
 
+    -webkit-transform: skewY(-7deg);
     transform: skewY(-7deg);
 
     & > * {
